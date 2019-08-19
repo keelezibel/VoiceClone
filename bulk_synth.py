@@ -138,6 +138,8 @@ class VoiceClone:
             # recommended in general.
             vocoder.infer_waveform(mel, target=200, overlap=50, progress_callback=no_action)
             
+            print("\tAll test passed!")
+            
             return("All test passed!")
             
         except Exception as e:
@@ -245,9 +247,10 @@ class VoiceClone:
         
 
 
-if __name__ == '__main__':    
-    clone = VoiceClone(**vars(args))
-    #clone.test_config()
-    clone.synt_speech()
+if __name__ == '__main__':
+    #clone = VoiceClone(**vars(args))
+    clone = VoiceClone()
+    clone.test_config()
+    #clone.synt_speech()
     
         

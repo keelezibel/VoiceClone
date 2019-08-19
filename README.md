@@ -1,3 +1,8 @@
+## Check config
+```
+python bulk_synth.py (by default runs test_config())
+``` 
+
 ## Dependencies
 
 
