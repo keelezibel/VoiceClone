@@ -12,6 +12,12 @@ Params:
 ```
 python bulk_synth.py (by default runs test_config())
 ``` 
+## Download models
+https://drive.google.com/drive/folders/1y-TwiaSIFn1STJnAd1uzHwagYKyyK9PK?usp=sharing
+
+<br/>
+Download the models in the link above. Copy to the project folder in the three folders: encoder, synthesizer and vocoder.
+
 
 ## Steps to run on Docker
 1. Build docker image
