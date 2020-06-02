@@ -22,7 +22,8 @@ e.g. docker build -t audiosynth .
 
 2. Run docker image
 ```
-docker run -p <port>:<port> --gpus all <reponame>
+docker run -d -v <host_path>:/Input/Synth -p <port>:<port> --gpus all <reponame>
 ```
-e.g. docker run -p 8000:8000 --gpus all audiosynth
+e.g. docker run -d -v /home/user/Downloads/VoiceClone/Input/Synth:/Input/Synth -p 8000:8000 --gpus all audiosynth
+
 
