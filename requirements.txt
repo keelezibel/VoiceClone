@@ -8,7 +8,7 @@ requests
 six
 urllib3
 waitress
-tensorflow-gpu>=1.10.0,<=1.14.0
+tensorflow-gpu>=1.15.2
 umap-learn
 visdom
 webrtcvad
