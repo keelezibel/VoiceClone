@@ -2,8 +2,8 @@
 Clone voice of a particular speaker (American English)
 
 ## Sample endpoint
-http://localhost:8000/synth?audio=./Input/Speech/&text=./Input/script.txt&output=./Input/Synth/
-Params: 
+http://localhost:8000/synth?audio=./Input/Speech/&text=./Input/script.txt&output=./Input/Synth/ <br/>
+Params:
 1. audio: Directory for input speech. Different folders for different speakers
 2. text: File for text-to-speech input
 3. output: Directory for synthesized file
