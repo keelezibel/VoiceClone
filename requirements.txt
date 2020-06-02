@@ -8,7 +8,7 @@ requests
 six
 urllib3
 waitress
-tensorflow-gpu>=1.15.2
+tensorflow-gpu>=1.10.0,<=1.14.0
 umap-learn
 visdom
 webrtcvad
@@ -24,4 +24,4 @@ PyQt5
 multiprocess
 numba
 SoundFile
-torch
+torch==1.2.0

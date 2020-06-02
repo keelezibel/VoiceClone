@@ -239,12 +239,11 @@ class VoiceClone:
                     spec, breaks = self.gen_spect(embed, text)
                     generated_wav = self.vocode(spec, breaks)
                     self.save_to_disk(generated_wav, spk)
-                    
+
+            return ("Done. Processed: {} speakers".format(len(spk_folders)))
+
         except Exception as e:
             print("Caught exception: %s" % repr(e))
-        
-        return("Done. Processed: {} speakers".format(len(spk_folders)))
-        
 
 
 if __name__ == '__main__':
